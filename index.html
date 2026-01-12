@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма заявки</title>
+<body>
+
+<div class="form-box">
+
+    <h1>Форма заявки на работу в зоопарке</h1>
+    <div class="note">
+        Пожалуйста, заполните форму. Обязательные поля помечены *
+    </div>
+
+    <form>
+
+        <fieldset>
+            <legend>Контактная информация</legend>
+
+            <div class="row">
+                <label>Имя *</label>
+                <input type="text">
+            </div>
+
+            <div class="row">
+                <label>Телефон</label>
+                <input type="text">
+            </div>
+
+            <div class="row">
+                <label>Email *</label>
+                <input type="email">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Персональная информация</legend>
+
+            <div class="row">
+                <label>Возраст *</label>
+                <input type="text">
+            </div>
+
+            <div class="row">
+                <label>Пол</label>
+                <select>
+                    <option>Женщина</option>
+                    <option>Мужчина</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <label>Перечислите личные качества</label>
+                <textarea></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Выберите ваших любимых животных</legend>
+
+            <div class="animals">
+                <label><input type="checkbox"> Зебра</label>
+                <label><input type="checkbox"> Кошак</label>
+                <label><input type="checkbox"> Анаконда</label>
+                <label><input type="checkbox"> Человек</label><br><br>
+
+                <label><input type="checkbox"> Слон</label>
+                <label><input type="checkbox"> Антилопа</label>
+                <label><input type="checkbox"> Голубь</label>
+                <label><input type="checkbox"> Краб</label>
+            </div>
+        </fieldset>
+
+        <button type="submit">Отправить информацию</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

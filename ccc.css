@@ -1,0 +1,62 @@
+body {
+    font-family: Times New Roman, serif;
+    background: #fff;
+}
+
+.form-box {
+    width: 700px;
+    border: 2px solid #000;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.note {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+    width: 300px;
+}
+
+textarea {
+    height: 80px;
+}
+
+.animals label {
+    width: auto;
+    margin-right: 30px;
+}
+
+button {
+   padding: 5px 15px;
+}
